@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",
                   "html:target/default-html-reports",
-                  "rerun:targert/rerun.text"},
+                  "rerun:target/rerun.text"},
         features = "src/test/resources/features/",
         glue = "com/twiliaerp/StepDefs/",
         dryRun = false,
